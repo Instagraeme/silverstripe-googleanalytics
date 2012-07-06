@@ -10,6 +10,14 @@ class GoogleReport extends SS_Report {
 		return "add description";
 	}
 
+	function sourcerecords() {
+		return false;
+	}
+
+	function columns() {
+		return array();
+	}
+
 	function getCMSFields() {
 		$fields = new FieldSet();
 		
